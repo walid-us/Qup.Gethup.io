@@ -1,0 +1,709 @@
+body {
+	font-family: 'Quicksand', sans-serif;
+}
+
+.uppercase {
+    text-transform: uppercase;
+}
+
+.text-center {
+    text-align: center;
+}
+
+/* Start Header */
+
+.header {
+    background: url(../images/apple.jpg);
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    height: 100vh;
+    position: relative;
+    color: #D8D8DA;
+    overflow: hidden;
+}
+
+.header .overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(46, 41, 47, .9);
+}
+
+.header .centering-vh {
+    margin-top: 35vh;
+}
+
+/* start navbar */
+
+.navbar-light .navbar-brand {
+    color: #C6116B;
+    font-size: 20px;
+    font-weight: 500;
+    padding: 20px 0;
+}
+
+.navbar-light .navbar-nav .nav-link {
+    color: #BBB7BC;
+
+}
+
+.navbar-light .navbar-nav .active>.nav-link,
+.navbar-light .navbar-nav .nav-link.active,
+.navbar-light .navbar-nav .nav-link.show,
+.navbar-light .navbar-nav .show>.nav-link {
+    color: #C6116B;
+}
+
+
+.navbar-expand-lg .navbar-nav .nav-link {
+    padding-left: 2.5rem;
+    padding: 8px;
+    border-color: rgba(255,255,255,.15);
+
+}
+
+.navbar-light .navbar-brand:focus, .navbar-light .navbar-brand:hover {
+    color: #C6116B !important;
+
+}
+
+.navbar-nav .active>.nav-link, .navbar-nav .nav-link.active,
+.navbar-nav .nav-link.show, .navbar-nav .show>.nav-link,
+.navbar-nav .nav-link:focus, .navbar-nav .nav-link:hover {
+    color: #C6116B !important;
+}
+
+.navbar-nav .get {
+    display: inline-block;
+    border: 1px solid #C6116B;
+    margin-left: 20px;
+    margin-bottom: 2px;
+}
+
+.header h1 {
+    font-weight: bold;
+    margin-bottom: 20px;
+    color: #BBB7BC;
+    text-shadow: 2px 2px 4px #000000;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+
+}
+
+.header p {
+    margin-top: 25px;
+    color: #a7a4ab;
+    line-height: 1.6;
+    font-size: 16px;
+    width: 80%;
+    margin: 20px auto 35px;
+}
+
+.header .centering-vh button {
+    background: linear-gradient(-45deg, #f403d1, #64b5f6);
+    padding: 13px 0;
+    width: 180px;
+    font-size: 15px;
+    margin: 0 8px;
+    color: #FFF;
+    font-weight: 500;
+    border: none;
+}
+
+.header .centering-vh button:hover {
+    background-color: transparent;
+}
+
+
+
+/* End Header */
+
+/* Start Cleverlance */
+
+
+.clever .lance {
+    padding: 80px 0;
+    background-color: #1D171E;
+    padding: 80px 0;
+    height: 370px;
+}
+
+.clever .lance h2 {
+    color: #BBB7BC;
+    margin-bottom: 30px;
+    text-shadow: 2px 2px 4px #D9D8D7;
+
+}
+
+.clever .lance p {
+    margin-top: 25px;
+    color: #a7a4ab;
+    line-height: 1.6;
+    font-size: 16px;
+    width: 80%;
+    margin: 20px auto 35px;
+}
+
+.clever .lance button {
+    background: transparent;
+    padding: 15px 0;
+    width: 200px;
+    font-size: 14px;
+    border: 1px solid #C6116B;
+    margin: 0 8px;
+    border-radius: 5px;
+    color: #C6116B;
+}
+
+.clever .lance button:hover {
+    background: linear-gradient(-45deg, #f403d1, #64b5f6);
+    color: #BBB7BC;
+    border: none;
+}
+
+/* End Cleverlance */
+
+/* start qub */
+
+.clever .qub {
+    padding: 80px 0;
+    background-color: #1F1A20;
+    padding: 80px 0;
+    height: 370px;
+}
+
+.clever .qub h2 {
+    color: #BBB7BC;
+    margin-bottom: 30px;
+    text-shadow: 2px 2px 4px #D9D8D7;
+
+}
+
+.clever .qub p {
+    margin-top: 25px;
+    color: #a7a4ab;
+    line-height: 1.6;
+    font-size: 16px;
+    width: 80%;
+    margin: 20px auto 35px;
+}
+
+.clever .qub button {
+    background: transparent;
+    padding: 15px 0;
+    width: 200px;
+    font-size: 14px;
+    border: 1px solid #C6116B;
+    margin: 0 8px;
+    border-radius: 5px;
+    color: #C6116B;
+}
+
+.clever .qub button:hover {
+    background: linear-gradient(-45deg, #f403d1, #64b5f6);
+    color: #BBB7BC;
+    border: none;
+}
+
+
+.col, .col-1, .col-10, .col-11, .col-12, .col-2, .col-3,
+.col-4, .col-5, .col-6, .col-7, .col-8, .col-9, .col-auto,
+.col-lg, .col-lg-1, .col-lg-10, .col-lg-11, .col-lg-12,
+.col-lg-2, .col-lg-3, .col-lg-4, .col-lg-5, .col-lg-6,
+.col-lg-7, .col-lg-8, .col-lg-9, .col-lg-auto, .col-md,
+.col-md-1, .col-md-10, .col-md-11, .col-md-12, .col-md-2,
+.col-md-3, .col-md-4, .col-md-5, .col-md-6, .col-md-7,
+.col-md-8, .col-md-9, .col-md-auto, .col-sm, .col-sm-1,
+.col-sm-10, .col-sm-11, .col-sm-12, .col-sm-2, .col-sm-3,
+.col-sm-4, .col-sm-5, .col-sm-6, .col-sm-7, .col-sm-8,
+.col-sm-9, .col-sm-auto, .col-xl, .col-xl-1, .col-xl-10,
+.col-xl-11, .col-xl-12, .col-xl-2, .col-xl-3, .col-xl-4,
+.col-xl-5, .col-xl-6, .col-xl-7, .col-xl-8, .col-xl-9, .col-xl-auto {
+
+    padding-right: 0;
+    padding-left: 0;
+}
+/* End qub */
+
+/* start Our Services */
+
+.our-services {
+    padding: 60px 0;
+    background: linear-gradient(-45deg, #9000A9,#BF0D74);
+}
+
+.our-services .our {
+    color: #D9D8D7;
+    text-shadow: 2px 2px 4px #000000;
+    font-size: 35px;
+    font-weight: bold;
+}
+
+.our-services .row h2 {
+    padding: 70px 0 0 0;
+    color: #D9D8D7;
+    text-shadow: 2px 2px 4px #000000;
+    font-size: 35px;
+    font-weight: bold;
+}
+
+.our-services .software i {
+    padding: 80px 0;
+    color: #fff;
+
+}
+
+.our-services p {
+    margin-top: 25px;
+    color: #a7a4ab;
+    line-height: 1.6;
+    font-size: 20px;
+    width: 80%;
+    margin: 20px auto 35px;
+}
+
+.our-services ul {
+    border-bottom: 1px solid #BBB7BC;
+    padding: 20px 0;
+}
+
+
+.our-services ul li {
+    font-size: 25px;
+    font-weight: bold;
+    color: #FFF;
+    cursor: pointer;
+    -webkit-transition: all .3s ease-in-out;
+    -moz-transition: all .3s ease-in-out;
+    -o-transition: all .3s ease-in-out;
+    transition: all .3s ease-in-out;
+
+}
+
+.our-services ul li:hover {
+    padding: 10px 5px;
+}
+
+.our-services .software div:not(.soft-1) {
+    display: none;
+}
+
+
+
+/* End Our Services */
+
+/* Start About */
+
+.about {
+    background-color: #1F1A20;
+
+}
+
+.about ul {
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100vh;
+    background-color: #ccc;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+.about ul li {
+    list-style: none;
+    position: relative;
+    width: 20%;
+    height: 100%;
+    border-right: 1px solid #000;
+    float: left;
+    box-sizing: border-box;
+    transition: 0.5s;
+    text-align: center;
+    overflow: hidden;
+
+}
+
+.about ul li:nth-child(1) {
+    background: url(../images/team/1.jpg);
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    background-position: left;
+    overflow: hidden;
+}
+.about ul li:nth-child(2) {
+    background: url(../images/team/2.jpg);
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    background-position: left;
+    overflow: hidden;
+}
+.about ul li:nth-child(3) {
+    background: url(../images/team/3.jpg);
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    background-position: left;
+    overflow: hidden;
+}
+.about ul li:nth-child(4) {
+    background: url(../images/team/4.jpg);
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    background-position: left;
+    overflow: hidden;
+}
+.about ul li:nth-child(5) {
+    background: url(../images/team/5.jpg);
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    background-position: left;
+    overflow: hidden;
+    
+}
+
+.about ul:hover li {
+    width: 10%;
+}
+
+.about ul li:hover {
+    width: 60%;
+}
+
+.about ul li .content {
+    bottom: -100%;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(56, 56, 58, 0.829);
+    box-sizing: border-box;
+    color: #fff;
+    opacity: 0;
+
+}
+
+.about ul li:hover .content {
+    bottom: 40%;
+    transition: 0.5s;
+    transition-delay: 0.5;
+    opacity: 1;
+}
+
+
+.about .content h2 {
+    padding-top: 200px;
+    font-family: "Oswald", sans-serif;
+    color: #D9D8D7;
+}
+
+.about .content span {
+    margin-top: 25px;
+    color: #BBB7BC;
+}
+
+.about .content p {
+    margin-top: 25px;
+    color: #a7a4ab;
+    line-height: 1.6;
+    font-size: 16px;
+    width: 80%;
+    margin: 20px auto 35px;
+}
+
+.about .content button {
+    background: transparent;
+    padding: 15px 0;
+    width: 150px;
+    font-size: 14px;
+    border: 1px solid #C6116B;
+    margin: 0 8px;
+    border-radius: 5px;
+    color: #C6116B;
+    margin-bottom: 10px;
+}
+
+.about .content button:hover {
+    background: linear-gradient(-45deg, #f403d1, #64b5f6);
+    color: #BBB7BC;
+    border: none;
+}
+/* End About */
+
+/* Start Follow Us */
+
+.follow-us {
+    padding: 80px 0;
+    background-color: #1c171d;
+}
+
+.follow-us h2 {
+    font-size: 60px;
+    font-weight: bold;
+    text-shadow: 2px 2px 4px #000000;
+    color: #dcdcdc;
+}
+
+.follow-us span {
+    font-size: 25px;
+    color: #dcdcdc;
+
+}
+
+.wrapper {
+    width: 100%;
+    height: auto;
+    overflow: hidden;
+    background-color: #1c171d;
+
+}
+
+.owl-carousel .owl-item img {
+    height: 300px;
+}
+
+.owl-carousel, .owl-carousel .owl-item {
+    text-align: center;
+    margin-bottom: 0;
+
+}
+
+.owl-nav,.owl-dots {
+    display: none;
+    
+}
+
+.or-find {
+    padding: 80px 0;
+    background-color: #1c171d;
+    margin-top: -8px;
+}
+
+.or-find h2 {
+    font-size: 50px;
+    font-weight: bold;
+    text-shadow: 2px 2px 4px #000000;
+    color: #dcdcdc;
+    margin-bottom: 40px;
+}
+.or-find  button {
+    background: transparent;
+    padding: 12px 0;
+    width: 150px;
+    font-size: 14px;
+    border: 1px solid #C6116B;
+    margin: 0 8px;
+    border-radius: 5px;
+    color: #C6116B;
+    margin-bottom: 10px;
+}
+
+.or-find button:hover {
+    background: linear-gradient(-45deg, #f403d1, #64b5f6);
+    color: #BBB7BC;
+    border: none;
+}
+
+/* End Follow Us */
+
+
+/* start pricing-table */
+
+ .pricing-table {
+    padding: 70px 0;
+    background-color: #fff;
+    font-family: 'Quicksand', sans-serif;
+ }
+
+ .pricing-table h2 {
+     text-align: center;
+     color: #C6116B;
+     text-shadow: 2px 2px 4px #000000;
+     font-size: 50px;
+     font-weight: bold;
+     letter-spacing: 1px;
+     text-transform: uppercase;
+ }
+
+ .pricing-table p {
+    text-align: center;
+    color: #BBB7BC;
+    width: 80%;
+    margin: 20px auto 45px;
+ }
+
+ .card ,
+ .card-body .plane 
+ {
+     position: relative;
+     max-width: 300px;
+     height: auto;
+     background: linear-gradient(-45deg, #f403d1, #64b5f6);
+     border-radius: 15px;
+     margin: 0 auto 20px;
+     padding: 40px 20px;
+     box-shadow: 0 10px 15px;
+     transition: .5s;
+ }
+
+
+
+ .card-body .plane {
+    color: #fff;
+    font-size: 60px;
+    width: 50%;
+    height: 50%;
+    border-radius: 50%;
+    line-height: 25px;
+    text-align: center;
+    box-shadow: 0 10px 10px rgba(0, 0, 0, .7);
+ }
+
+ .card-body h5 {
+     position: relative;
+     margin: 20px 0 0;
+     padding: 0;
+     color: #fff;
+     font-size: 28px;
+     margin-bottom: 10px;
+ }
+
+ .card-body h4 {
+    color: #fff;
+ }
+
+ .card-body h4 span {
+     margin: 0;
+     padding: 20px 0;
+     color: #fff;
+     font-size: 50px;
+ }
+
+ .card-body ul {
+     margin: 0;
+     padding: 0;
+ }
+
+ .card-body ul li {
+     margin: 0 0 10px;
+     padding: 0;
+     list-style: none;
+     color: #fff;
+     font-size: 16px;
+ }
+ .card-body a {
+     background-color: #fff;
+    color: #95909a;
+     width: 150px;
+     height: 40px;
+     line-height: 40px;
+     border-radius: 40px;
+     display: block;
+     text-align: center;
+     margin: 20px auto 0;
+     font-size: 14px;
+     cursor: pointer;
+     text-decoration: none;
+     box-shadow: 0 5px 10px rgba(0, 0, 0, .7);
+ }
+
+ .card-body a:hover {
+    background: linear-gradient(-45deg, #f403d1, #64b5f6);
+    color: #fff;
+ }
+
+/* End pricing-table */
+
+/* start contact-us */
+
+.contact-us {
+    padding: 50px;
+    background-color: #f9f8f9;
+}
+
+.contact-us h2 {
+    font-size: 50px;
+    font-weight: bold;
+    text-shadow: 2px 2px 4px #000000;
+    color: #C6116B;
+    margin-bottom: 40px;
+    letter-spacing: 3px;
+}
+
+.contact-us p {
+    margin-top: 25px;
+    color: #a7a4ab;
+    line-height: 1.6;
+    font-size: 20px;
+    width: 80%;
+    margin: 20px auto 35px;
+}
+
+.contact-us input {
+    margin-bottom: 10px;
+    padding-right: 15px;
+    border: 1px solid #C6116B;
+
+}
+
+.contact-us textarea {
+    height: 134px;
+    border: 1px solid #C6116B;
+
+}
+
+.col, .col-1, .col-10, .col-11, .col-12, .col-2,
+.col-3, .col-4, .col-5, .col-6, .col-7, .col-8,
+.col-9, .col-auto, .col-lg, .col-lg-1, .col-lg-10,
+.col-lg-11, .col-lg-12, .col-lg-2, .col-lg-3,
+.col-lg-4, .col-lg-5, .col-lg-6, .col-lg-7, .col-lg-8,
+.col-lg-9, .col-lg-auto, .col-md, .col-md-1, .col-md-10,
+.col-md-11, .col-md-12, .col-md-2, .col-md-3, .col-md-4,
+.col-md-5, .col-md-6, .col-md-7, .col-md-8, .col-md-9,
+.col-md-auto, .col-sm, .col-sm-1, .col-sm-10, .col-sm-11,
+.col-sm-12, .col-sm-2, .col-sm-3, .col-sm-4, .col-sm-5,
+.col-sm-6, .col-sm-7, .col-sm-8, .col-sm-9, .col-sm-auto,
+.col-xl, .col-xl-1, .col-xl-10, .col-xl-11, .col-xl-12,
+.col-xl-2, .col-xl-3, .col-xl-4, .col-xl-5, .col-xl-6,
+.col-xl-7, .col-xl-8, .col-xl-9, .col-xl-auto {
+    padding-right: 10px;
+    padding-left: 10px;
+}
+
+.contact-us button {
+    background: transparent;
+    padding: 15px 0;
+    width: 200px;
+    font-size: 14px;
+    border: 1px solid #C6116B;
+    margin-top: 30px;
+    border-radius: 5px;
+    color: #C6116B;
+}
+
+.contact-us button:hover {
+    background: linear-gradient(-45deg, #f403d1, #64b5f6);
+    color: #BBB7BC;
+    border: none;
+}
+
+/* End contact-us */
+
+
+/*      background: linear-gradient(-45deg, #fe0847, #feae3f); كود باك جراوند احمر فى اصفر
+
+/*      background: linear-gradient(-45deg, #ffec61, #f321d7); كود باك جراوند احمر فى اصفر
+
+/*      background: linear-gradient(-45deg, #24ff72, #9a4eff); كود باك جراوند احمر فى اصفر
